@@ -32,7 +32,7 @@ export default {
     <h3>Нажмите кнопку для сохранения в базе данных</h3>
     <button @click="saveTime">Сохранить время</button>
     <h3 v-if="savedTimes.length && showSavedTimes">
-      Ранее сохраненные времена:
+      Ранее сохраненные времена што:
     </h3>
     <div
       v-if="showSavedTimes"
